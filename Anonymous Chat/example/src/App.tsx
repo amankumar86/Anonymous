@@ -32,7 +32,7 @@ const App: FC = memo(function App() {
         {mode === PEER_CONNECTION_MODE.HOST && !isConnected && <Host />}
         {mode === PEER_CONNECTION_MODE.SLAVE && !isConnected && <Slave />}
         {mode && isConnected && <Chat />}
-        <AppFooter version="v3.0.0" homepage="github.com/michal-wrzosek/p2p-chat" />
+        <AppFooter version="v1.0" homepage="ANONYMOUS" />
       </InnerWrapper>
     </Wrapper>
   );
