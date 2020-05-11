@@ -1,5 +1,5 @@
 # ANONYMOUS chat
-![npm](https://img.shields.io/npm/v/p2p-chat)
+### VERSION - 1.0
 
 ANONYMOUS chat on your device with additional AES256 Encryption and File sharing (NO SIGNALING SERVER REQUIRED)
 
