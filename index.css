@@ -38,13 +38,12 @@ body {
 }
 
 .button {
-	box-sizing: border-box;
-	background-color: #111;
-	border: solid 1px #888;
-	padding: 8px 25px;
-	font-size: 26px;
-	letter-spacing: 2px;
-	cursor: pointer;
+	 background-color: #111;
+	 border: solid 1px #888;
+	 padding: 8px 25px;
+	 font-size: 20px;
+	 letter-spacing: 0px;
+	 cursor: pointer;
 }
 .rerun {
 	position: absolute;
