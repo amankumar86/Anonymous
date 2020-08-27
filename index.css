@@ -38,6 +38,7 @@ body {
 }
 
 .button {
+	box-sizing: border-box;
 	background-color: #111;
 	border: solid 1px #888;
 	padding: 8px 25px;
@@ -53,7 +54,7 @@ body {
 .start {
 	position: absolute;
 	top: 10%;
-	left: 18%;
+	left: 15%;
 	transform: translate(-50%, -50%);
 }
 
