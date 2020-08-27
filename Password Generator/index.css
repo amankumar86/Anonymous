@@ -1,7 +1,6 @@
 @import url("reset.css");
 @import url(https://fonts.googleapis.com/css?family=Droid+Sans|Oswald);
 
-
 /*
  *	font-family: 'Droid Sans', sans-serif; 
  *	font-family: 'Oswald', sans-serif;
@@ -15,23 +14,46 @@ p.browseHappy { text-align: center; padding: 11px; font-size: 1.3em; color: whit
 p.browseHappy > a { color: #39b54a; }
 p.browseHappy > a:hover { text-decoration: underline; }
 
+img {  }
 
+a,:link,:visited { color: #3C8F5B; ; text-decoration: none; font-size: 1em; } 
+a:hover,a.important,a.on { color: #3C8F5B; text-decoration: underline;  }
+
+/* Headings */
+h1,h2,h3,h4,h5,h6 { margin-bottom: .3em; font-weight: normal; line-height: normal; color: #f7941d; }
+
+h1 { font-size: 200%; }
+h2 { font-size: 150%; text-align: center; }
+h3 { font-size: 130%; }
+h4 { font-size: 130%; }
+h5 { font-size: 110%; }
+h6 { font-size: 100%; }
+
+/* Body radial background */
+body {
+ 	background: #7daec0; 
+	background: -moz-radial-gradient(center, ellipse cover,  #7daec0 0%, #457081 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#7daec0), color-stop(100%,#457081)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  #7daec0 0%,#457081 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  #7daec0 0%,#457081 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  #7daec0 0%,#457081 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  #7daec0 0%,#457081 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7daec0', endColorstr='#457081',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 /***************
  * Main styles *
  ***************/
 .mainWrapper {
-  
 	text-align: center;
-	padding: 90px 0 0;
-	margin: -25px 0 0 -25px;
+	padding: 9px 300px 100px;
+	margin: 0 auto 0;
 	width: 410px;
 }
 .logo {
 	font: 400 2.333em/42px 'Oswald', sans-serif;
 	text-shadow: 3px 2px 0px #164354;
-	margin-bottom: 22px;
+	margin-bottom: 150px;
 	color: #fff;	
 }
 .logo::selection {
@@ -47,17 +69,13 @@ p.browseHappy > a:hover { text-decoration: underline; }
  * Options styles *
  ******************/
  .page {
-     position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: -25px 0 0 -25px
 	-webkit-border-radius: 5px 5px;
 	border-radius: 5px 5px;
 	background: #AFC7D0;
 	border: 1px solid #5E7781;
 	width: 338px;
 	position: relative;
-	
+	padding: 30px 35px;
  }
 
 /******************
