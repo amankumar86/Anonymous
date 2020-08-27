@@ -55,7 +55,7 @@ body {
 	right: 15px;
 }
 .start {
-	position: absolute;
+	position: auto;
 	top: 10%;
 	left: 15%;
 	transform: translate(-50%, -50%);
