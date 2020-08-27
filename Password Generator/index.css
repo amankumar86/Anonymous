@@ -31,14 +31,8 @@ h6 { font-size: 100%; }
 
 /* Body radial background */
 body {
- 	background: #7daec0; 
-	background: -moz-radial-gradient(center, ellipse cover,  #7daec0 0%, #457081 100%); /* FF3.6+ */
-	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#7daec0), color-stop(100%,#457081)); /* Chrome,Safari4+ */
-	background: -webkit-radial-gradient(center, ellipse cover,  #7daec0 0%,#457081 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-radial-gradient(center, ellipse cover,  #7daec0 0%,#457081 100%); /* Opera 12+ */
-	background: -ms-radial-gradient(center, ellipse cover,  #7daec0 0%,#457081 100%); /* IE10+ */
-	background: radial-gradient(ellipse at center,  #7daec0 0%,#457081 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7daec0', endColorstr='#457081',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+	background-image: url('https://iarchitsharma.github.io/Anonymous/Password%20Generator/crop.jpg'); 
 }
 
 /***************
