@@ -38,9 +38,6 @@ body {
 }
 
 .button {
-        width: 100%;
-        min-width: 50px;
-        max-width: 300px;
 	box-sizing: border-box;
 	background-color: #111;
 	border: solid 1px #888;
