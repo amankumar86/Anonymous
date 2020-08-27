@@ -52,7 +52,7 @@ body {
 	right: 15px;
 }
 .start {
-	position: auto;
+	position: absolute;
 	top: 10%;
 	left: 10%;
 	
