@@ -47,13 +47,13 @@ body {
 }
 .rerun {
 	position: absolute;
-	bottom: 15px;
-	right: 15px;
+	bottom: 50px;
+	right: 50px;
 }
 .start {
 	position: absolute;
-	top: 5%;
-	left: 5%;
+	top: 50%;
+	left: 50%;
 	
 }
 
